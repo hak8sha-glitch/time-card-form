@@ -10,11 +10,11 @@
   <div id="msg">しばらくお待ちください</div>
 
   <script>
-    // ✅ 会社のWi-Fiの住所（IPアドレス）
+    // 153.203.110.246
     const allowedIPs = ["153.203.110.246"];
 
-    // ✅ タイムカード用GoogleフォームのURLを貼る
-    const formEmbedUrl = "https://docs.google.com/forms/d/e/【あなたのフォームのURL】/viewform?embedded=true";
+    // https://docs.google.com/forms/d/1CCNwzw08AKt5twRVSDU9owVZzyYCEZ6OtBjXTJezSPs/edit
+    const formEmbedUrl = "https://docs.google.com/forms/d/e/https://docs.google.com/forms/d/1CCNwzw08AKt5twRVSDU9owVZzyYCEZ6OtBjXTJezSPs/edit/viewform?embedded=true";
 
     async function checkIP() {
       const r = await fetch("https://api.ipify.org?format=json");
